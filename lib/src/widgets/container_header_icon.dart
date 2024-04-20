@@ -15,7 +15,7 @@ class ContainerHeaderIcon extends StatelessWidget {
       width: 40,
       margin: configMargin,
       decoration: BoxDecoration(
-        border: Border.all(color: DieCauColors.brandLightColorBorder),
+        border: Border.all(color: StoreAppColors.brandLightColorBorder),
         borderRadius: const BorderRadius.all(Radius.circular(12)),
       ),
       child: iconButton,

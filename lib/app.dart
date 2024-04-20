@@ -11,7 +11,7 @@ class StoreApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: DieCauThemes.defaultTheme, 
+      theme: StoreAppThemes.defaultTheme, 
       home: const HomePage()
     );
   }

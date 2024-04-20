@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:store_app/src/widgets/container_header_icon.dart';
 
@@ -28,19 +30,21 @@ class HomeAppBarTitle extends StatelessWidget {
         ContainerHeaderIcon(
           configMargin: const EdgeInsets.only(right: 12),
           iconButton: IconButton(
+            enableFeedback: true,
             onPressed: () => print('Presionaron en Notificaciones'),
             icon: const Icon(
               Icons.notifications,
-              color: DieCauColors.brandPrimaryColor,
+              color: StoreAppColors.brandPrimaryColor,
             ),
           ),
         ),
         ContainerHeaderIcon(
           iconButton: IconButton(
+            enableFeedback: true,
             onPressed: () => print('Presionaron en More Vertical'),
             icon: const Icon(
               Icons.more_vert,
-              color: DieCauColors.brandPrimaryColor,
+              color: StoreAppColors.brandPrimaryColor,
             ),
           ),
         ),
